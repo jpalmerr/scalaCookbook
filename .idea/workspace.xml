@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9d9de4-46dd-40dd-8e30-6b9881d44ca2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/CompanionObjects.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/MarkingTraits.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/MethodReturningTuples.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/MethodScope.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/MethodsInTraits.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/Numbers.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/Strings.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/TraitMixins.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/Traits.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cookbook/app.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/CaseClassMatch.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/ControlStructures.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/GuardsMatching.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/Match.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/MethodReturningTuples.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/MethodScope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/Numbers.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/ParameterNames.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/Strings.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/Traits.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Worksheets/app.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,20 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/Singletons.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/ParameterNames.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/FunctionalProgramming/NewtonsExample.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -88,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/cookbook/FunctionalProgramming.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/cookbook/FunctionReturningFunction.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/cookbook/PartialFunctions.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/cookbook/FunctionalProgramming/NewtonsExample.sc" />
       </list>
     </option>
   </component>
@@ -140,7 +134,10 @@
               <item name="ScalaCookbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaCookbook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="cookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.NewtonsMethod">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="ScalaCookbook" />
@@ -186,6 +183,13 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ScalaCookbook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewtonsMethod" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="NewtonsMethod" />
       <module name="ScalaCookbook" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,6 +244,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewtonsMethod" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Hello" />
       </list>
@@ -294,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559899528074</updated>
-      <workItem from="1559899529606" duration="24597000" />
+      <workItem from="1559899529606" duration="25904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24597000" />
+    <option name="totallyTimeSpent" value="25904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -310,7 +315,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.328594" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32876712" />
@@ -405,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/MethodReturningTuples.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -492,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/Singletons.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -500,6 +498,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cookbook/FunctionalProgramming/NewtonsExample.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
