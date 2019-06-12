@@ -25,3 +25,12 @@ val newList = originalList.filter(_ > 2)
 
 // can assign to a var but try to avoid vars where possible
 
+val a = List(1,2,3)
+val b = List(4,5,6)
+val c1 = a ++ b
+val c2 = a ::: b
+val c3 = List.concat(a, b)
+
+/*
+This class is optimal for last-in-first-out (LIFO), stack-like access patterns.
+ */

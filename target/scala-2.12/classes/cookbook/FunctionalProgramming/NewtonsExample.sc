@@ -1,7 +1,32 @@
-object NewtonsMethod {
-  def main(args: Array[String]): Unit = {
-    driver
+/**
+  * This is the "x2 = x1 - f(x1)/f'(x1)" calculation
+  */
+
+def newtonsMethodHelper(fx: Double => Double,
+                        fxPrime: Double => Double,
+                        x: Double): Double = {
+  x - fx(x)/ fxPrime(x)
+}
+
+/**
+  * Newton's method for solving equations
+  * @todo check that |f(xNext)| > second tolerance value
+  * @todo check that f'(x) != 0
+  */
+
+def newtonsMethod(fx: Double => Double,
+                  fxPrime: Double => Double,
+                  x: Double,
+                  tolerance: Double): Double = {
+  var x1 = x
+  var xNext = newtonsMethodHelper(fx, fxPrime, x1)
+  while (math.abs(xNext - x1) > tolerance) {
+    x1 = xNext
+    println(xNext) // helps debugging
+    xNext = newtonsMethodHelper(fx, fxPrime, x1)
   }
+
+  xNext
 }
 
 /**
@@ -27,33 +52,8 @@ def driver: Unit = {
   println(answer)
 }
 
-/**
-  * Newton's method for solving equations
-  * @todo check that |f(xNext)| > second tolerance value
-  * @todo check that f'(x) != 0
-  */
-
-def newtonsMethod(fx: Double => Double,
-                  fxPrime: Double => Double,
-                  x: Double,
-                  tolerance: Double): Double = {
-  var x1 = x
-  var xNext = newtonsMethodHelper(fx, fxPrime, x1)
-  while (math.abs(xNext - x1) > tolerance) {
-    x1 = xNext
-    println(xNext) // helps debugging
-    xNext = newtonsMethodHelper(fx, fxPrime, x1)
+object NewtonsMethod {
+  def main(args: Array[String]): Unit = {
+    driver
   }
-
-  xNext
-}
-
-/**
-  * This is the "x2 = x1 - f(x1)/f'(x1)" calculation
-  */
-
-def newtonsMethodHelper(fx: Double => Double,
-                        fxPrime: Double => Double,
-                        x: Double): Double = {
-  x - fx(x)/ fxPrime(x)
 }
