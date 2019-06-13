@@ -15,3 +15,5 @@ object Pizza {
 println(Pizza.CRUST_TYPE_THIN)
 println(Pizza.getFoo)
 val p = new Pizza("thin")
+
+// A class and its companion object can access each other's private members.
