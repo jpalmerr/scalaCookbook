@@ -1,0 +1,1 @@
+Helpful techniques from [Scala Cookbook](http://scalacookbook.com/)
