@@ -1,1 +1,0 @@
-[App](https://www.scala-lang.org/api/current/scala/App.html)
